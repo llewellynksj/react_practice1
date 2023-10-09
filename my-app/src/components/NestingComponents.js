@@ -8,7 +8,7 @@ export class NestingComponents extends Component {
     
       this.state = {
          isLoaded: true,
-         isLoggedIn: false,
+         isLoggedIn: false ,
       }
     }
     
