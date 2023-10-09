@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
+import EventsClass from './components/EventsClass';
+import EventsFunctional from './components/EventsFunctional';
 
 function App() {
   return (
     <div className="App">
-      < StatefulGreetingWithCallback greeting="I'm a stateful greeting" name="Kate"/>
+      <EventsFunctional />
+      <EventsClass />
     </div>
   );
 }
